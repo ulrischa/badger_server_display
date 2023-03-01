@@ -12,7 +12,7 @@ It has all you need to set up a webserver on the raspberry pico and so also on t
 
 ## Install
 1. Set up the badger as described [here](https://learn.pimoroni.com/article/getting-started-with-badger-2040-w)
-2. In Thonny load the phew library by clicking Tools -> Manage packages and searching for micropython-phew
+2. In Thonny load the phew! library by clicking Tools -> Manage packages and searching for micropython-phew
 3. Replace wifi_ssid= "XXX" and wifi_pw = "XXX" in send_text.py with your data
 3. Load the script send_text.py to the badger with Thonny (upload to /)
 
