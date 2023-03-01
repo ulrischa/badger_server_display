@@ -13,11 +13,12 @@ It has all you need to set up a webserver on the raspberry pico and so also on t
 ## Install
 1. Set up the badger as described [here](https://learn.pimoroni.com/article/getting-started-with-badger-2040-w)
 2. In Thonny load the phew! library by clicking Tools -> Manage packages and searching for micropython-phew
-3. Replace wifi_ssid= "XXX" and wifi_pw = "XXX" in send_text.py with your data
-3. Load the script send_text.py to the badger with Thonny (upload to /)
+3. Replace wifi_ssid= "XXX" and wifi_pw = "XXX" in txtsrv.py with your wifi data
+3. Connect the badger with your computer. Double click examples to go in that directory. Load the script txtsrv.py and the icon-txtsrv.jpg to the badger example directory with Thonny (upload to /examples)
+4. Disconnect and boot again
 
 ## Use
-When badger is up and running the led is on. On the display the URL is shown where you can send the text.
+When badger is up and running you see a SRV icon. If you start that app the led is goes on. On the display the URL is shown where you can send the text.
 
 ## Further development
 The display is very basic -> can be improved
